@@ -1,0 +1,14 @@
+body{
+  background-color: goldenrod;
+  font-size: 20px;
+}
+
+
+h1{
+  font-size: 40px;
+  color: white;
+  font-family: cursive;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000,
+               3px 3px 5px blue;
+}
