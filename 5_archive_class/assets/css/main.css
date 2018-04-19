@@ -1,0 +1,71 @@
+body {
+background-color: white;
+}
+.header{
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  font-size: 5vw;
+  text-transform: uppercase;
+  font-family: helvetica, arial;
+  letter-spacing: -0.05em;
+  width: 100%;
+  text-align: center;
+  z-index:2;
+}
+
+.nav{
+width: 100%;
+position: fixed;
+top: 0%;
+left: 0%;
+z-index: 2;
+padding-top: 10px;
+}
+
+.button{
+  font-family: arial;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 5px;
+  background-color:lightgrey;
+  font-size: 24px;
+  display: inline-block;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.main{
+  overflow: hidden;
+  position: relative;
+}
+
+.item{
+  float: left;
+  width:25%;
+}
+
+.show{
+  display: block;
+}
+
+.hide{
+  display: none;
+}
+
+.col1of2{
+  width: 50%;
+}
+
+.col3of4{
+  width: 75%;
+}
+
+.col2of5{
+  width: 40%;
+}
+
+.item img{
+  max-width: 100%;
+  padding: 10px;
+}
