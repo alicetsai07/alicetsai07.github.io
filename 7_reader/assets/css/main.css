@@ -1,0 +1,293 @@
+body{
+  background-color:#facde4;
+  margin:0;
+  font-size: 30px;
+  font-family:arial;
+
+}
+
+#selector {
+    width:80%;
+    height:80%;
+    position:fixed;
+
+}
+
+.main{
+  width: 80%;
+  margin: auto;
+}
+
+.nav {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  cursor:pointer;
+}
+
+.panel{
+  height: 100vh;
+  width: 141px;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding-top: 12px;
+  padding-right:8px;
+  padding-bottom:12px;
+  padding-left:8px;
+}
+
+
+
+.text{
+  position: fixed;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 14px;
+  margin-left: 0px;
+}
+
+.right{
+  width: 120px;
+  background-color: lightpink;
+  height: 1000px;
+  position: fixed;
+  right:0;
+  top:0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.document.showme {
+  right: 0;
+  transition: all 2s;
+}
+
+.main {
+  transition: all 2s;
+  margin-top: -0px;
+}
+
+.main.moveleft {
+  margin-top: -40vw;
+  transition: all 2s;
+}
+
+.backtotop {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+
+p{
+  font-family: sans-serif;
+  font-size: 60px;
+}
+
+.issue-intro{
+width: 100%;
+height: 10px;
+margin-left: auto;
+margin-right: auto;
+background-color:#FF0066;
+color:#FF0066;
+border: 0 none;
+margin-right: 100px;
+margin-bottom:100px;
+position:fixed;
+margin: 5px auto;
+border-right: 5 px;
+}
+
+.issue-intro h4{
+  color: #18927e;
+  height: 59px;
+  padding-top: 1.5rem;
+  position: absolute;
+  bottom: 100%;
+  width: 100vh;
+  transform-origin: left bottom;
+  transform: rotate(90deg);
+  text-align: left;
+  padding-left: .75em;
+}
+
+.issue-intro h5{
+  color: #18927e;
+  height: 59px;
+  padding-top: 1.5rem;
+  position: absolute;
+  bottom: 100%;
+  width: 100vh;
+  transform-origin: left bottom;
+  transform: rotate(90deg);
+  text-align: center;
+}
+
+.issue-intro h6{
+  color: #18927e;
+  height: 59px;
+  padding-top: 1.5rem;
+  position: absolute;
+  bottom: 100%;
+  width: 100vh;
+  transform-origin: left bottom;
+  transform: rotate(90deg);
+  padding-right: .75em;
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+h1{
+  text-align:left;
+  border: 2px white;
+  list-style-position: outside;
+  font-size: 13vw;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  color:rgba(191,0,254,1);
+  font-style: bold;
+}
+
+.pop {
+  width:200px;
+  height:200px;
+  position: fixed;
+  visibility: hidden;
+}
+
+.pop img {
+  width:100%;
+}
+
+.p-show {
+  visibility: visible;
+}
+
+.p-richard {
+  top: 20px;
+  right: 100px;
+}
+.p-selfish{
+  top:40px;
+  right: 550px;
+}
+
+.p-species{
+  top:100px;
+  right: 950px;
+}
+
+.p-DNA{
+  top: 30px;
+  right:750px;
+}
+
+.p-meme{
+  top: 30px;
+  right:750px;
+}
+
+.p-shortleg{
+  top: 30px;
+  right:450px;
+}
+
+.p-gene{
+  top:40px;
+  right: 600px;
+}
+.p-zebra{
+  top:40px;
+  right: 550px;
+}
+.p-lion{
+  top:20px;
+  right: 10px;
+  width: 100%;
+}
+
+.p-slowly{
+  top:20px;
+  right: 10px;
+  width: 80%;
+}
+
+.rollover{
+  color: red;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.rollover:hover{
+  color:rgba(191,0,254,1);
+}
+
+.blur {
+  position: fixed;
+  opacity: 0;
+  filter: blur(20px);
+  transition: all 2s;
+  pointer-events: none;
+}
+
+.blur.showme {
+  opacity: 1;
+  transition: all 2s;
+  filter: blur(0px);
+}
+
+.rotate{
+  position:fixed;
+  visibility: hidden;
+  transform: scale(0) rotate(0deg);
+  transition: all 2s;
+  pointer-events: none;
+  top:0;
+  left:-50vw;
+}
+
+.rotate.showme{
+  transform: scale(1) rotate(360deg);
+  display:block;
+  transition: all 2s;
+  visibility: visible;
+  top: 0px;
+  left: 50vw;
+}
+
+h2{
+  text-align:center;
+  font-size: 55px;
+}
+h3{
+  font-family: sans-serif;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+.col1of2 p {
+  font-size:20px;
+  margin: 1.333em;
+  line-height: 1.333em;
+}
+
+blockquote{
+  font-size: 20px;
+  margin: 1.333em;
+  line-height: 1.333em;
+  width: 85%;
+  margin-bottom: 1em;
+  text-align: center;
+}
