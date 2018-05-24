@@ -284,6 +284,16 @@ h1{
   left:10px;
   width: 50%
 }
+.p-memes{
+  top: 100px;
+  left:250px;
+  width: 30%
+}
+.p-internet{
+  top: 100px;
+  left:250px;
+  width: 30%
+}
 .rollover{
   color: red;
   font-weight: bold;

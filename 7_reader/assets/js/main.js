@@ -152,5 +152,20 @@ $('.r-richard').mouseleave(function() {
                   $('.r-knowyourmeme').mouseleave(function() {
                      $('.p-knowyourmeme').removeClass('p-show');
                    });
+
+                   $('.r-memes').mouseenter(function() {
+                      $('.p-memes').addClass('p-show');
+                    });
+
+                   $('.r-memes').mouseleave(function() {
+                      $('.p-memes').removeClass('p-show');
+                    });
+                    $('.r-internet').mouseenter(function() {
+                       $('.p-internet').addClass('p-show');
+                     });
+
+                    $('.r-internet').mouseleave(function() {
+                       $('.p-internet').removeClass('p-show');
+                     });
 // please dont delete this line
  });
