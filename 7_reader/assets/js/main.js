@@ -61,12 +61,12 @@ $('.r-richard').mouseleave(function() {
       $('.r-shortleg').mouseleave(function() {
          $('.p-shortleg').removeClass('p-show');
        });
-       $('.r-zebra').mouseenter(function() {
-          $('.p-zebra').addClass('p-show');
+       $('.r-zebras').mouseenter(function() {
+          $('.p-zebras').addClass('p-show');
         });
 
-       $('.r-zebra').mouseleave(function() {
-          $('.p-zebra').removeClass('p-show');
+       $('.r-zebras').mouseleave(function() {
+          $('.p-zebras').removeClass('p-show');
         });
         $('.r-lion').mouseenter(function() {
            $('.p-lion').addClass('p-show');
@@ -83,6 +83,43 @@ $('.r-richard').mouseleave(function() {
             $('.p-slowly').removeClass('p-show');
           });
 
+          $('.r-soccer').mouseenter(function() {
+             $('.p-soccer').addClass('p-show');
+           });
 
+          $('.r-soccer').mouseleave(function() {
+             $('.p-soccer').removeClass('p-show');
+           });
+           $('.r-code').mouseenter(function() {
+              $('.p-code').addClass('p-show');
+            });
+
+           $('.r-code').mouseleave(function() {
+              $('.p-code').removeClass('p-show');
+            });
+
+            $('.r-zebra').mouseenter(function() {
+               $('.p-zebra').addClass('p-show');
+             });
+
+            $('.r-zebra').mouseleave(function() {
+               $('.p-zebra').removeClass('p-show');
+             });
+
+             $('.r-genes').mouseenter(function() {
+                $('.p-genes').addClass('p-show');
+              });
+
+             $('.r-genes').mouseleave(function() {
+                $('.p-genes').removeClass('p-show');
+              });
+
+              $('.r-language').mouseenter(function() {
+                 $('.p-language').addClass('p-show');
+               });
+
+              $('.r-language').mouseleave(function() {
+                 $('.p-language').removeClass('p-show');
+               });
 // please dont delete this line
  });

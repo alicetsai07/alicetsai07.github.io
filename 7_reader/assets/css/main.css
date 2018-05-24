@@ -10,7 +10,19 @@ body{
     width:80%;
     height:80%;
     position:fixed;
+}
 
+.centre-header {
+  position: fixed;
+  left:50%;
+  top:50%;
+  margin-left:-200px;
+  margin-top:-25px;
+  width:400px;
+  height:50px;
+  font-size:40px;
+  text-align:center;
+  color:#00FF0066;
 }
 
 .main{
@@ -207,7 +219,7 @@ h1{
   top:40px;
   right: 600px;
 }
-.p-zebra{
+.p-zebras{
   top:40px;
   right: 550px;
 }
@@ -223,6 +235,34 @@ h1{
   width: 80%;
 }
 
+.p-soccer{
+  top:20px;
+  right: 10px;
+  width: 80%;
+}
+
+.p-code{
+  top: 50px;
+  right:10px;
+  width: 50%
+}
+
+.p-zebra{
+  top: 10px;
+  right:10px;
+  width: 50%
+}
+
+.p-genes{
+  top: 10px;
+  right:10px;
+  width: 50%
+}
+.p-language{
+  top: 10px;
+  right:10px;
+  width: 50%
+}
 .rollover{
   color: red;
   font-weight: bold;
