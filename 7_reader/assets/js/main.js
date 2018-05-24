@@ -145,5 +145,12 @@ $('.r-richard').mouseleave(function() {
                  $('.r-sport').mouseleave(function() {
                     $('.p-sport').removeClass('p-show');
                   });
+                  $('.r-knowyourmeme').mouseenter(function() {
+                     $('.p-knowyourmeme').addClass('p-show');
+                   });
+
+                  $('.r-knowyourmeme').mouseleave(function() {
+                     $('.p-knowyourmeme').removeClass('p-show');
+                   });
 // please dont delete this line
  });
