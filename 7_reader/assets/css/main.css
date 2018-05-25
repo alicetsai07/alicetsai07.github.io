@@ -27,8 +27,29 @@ body{
 
 .main{
   width: 80%;
-  margin: auto;
+  margin-left: 30px;
 }
+
+.documents-container {
+  position: fixed;
+  height: 100vh;
+  width:18%;
+  border-left:5px solid red;
+  right: 0px;
+  top:0px;
+  overflow: scroll;
+
+}
+
+.documents-container  img {
+  width: 100%;
+}
+
+.documents-container p {
+  font-size: 12px;
+}
+
+
 
 .nav {
   position: fixed;
@@ -100,18 +121,17 @@ p{
 }
 
 .issue-intro{
-width: 100%;
-height: 10px;
-margin-left: auto;
-margin-right: auto;
-background-color:#FF0066;
-color:#FF0066;
-border: 0 none;
-margin-right: 100px;
-margin-bottom:100px;
-position:fixed;
-margin: 5px auto;
-border-right: 5 px;
+  width: 50px;
+  height: 100vh;
+  margin-left: auto;
+  color: #FF0066;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  position: fixed;
+  margin: 5px auto;
+  border-right: 5px solid red;
+  z-index: 2;
+  top: -4px;
 }
 
 .issue-intro h4{
@@ -125,10 +145,12 @@ border-right: 5 px;
   transform: rotate(90deg);
   text-align: left;
   padding-left: .75em;
+  z-index: 2;
 }
 
-.issue-intro h5{
+.issue-intro h5 a{
   color: #18927e;
+  text-decoration: none;
   height: 59px;
   padding-top: 1.5rem;
   position: absolute;
@@ -137,6 +159,7 @@ border-right: 5 px;
   transform-origin: left bottom;
   transform: rotate(90deg);
   text-align: center;
+  z-index: 2;
 }
 
 .issue-intro h6{
@@ -171,138 +194,18 @@ h1{
   font-style: bold;
 }
 
-.pop {
-  width:200px;
-  height:200px;
-  position: fixed;
-  visibility: hidden;
+.essay-meme h1 {
+
 }
 
-.pop img {
-  width:100%;
+.essay-fitback h1 {
+
 }
 
-.p-show {
-  visibility: visible;
+.essay-design h1 {
+
 }
 
-.p-richard {
-  top: 20px;
-  right: 100px;
-}
-.p-selfish{
-  top:40px;
-  right: 550px;
-}
-
-.p-species{
-  top:100px;
-  right: 950px;
-}
-
-.p-DNA{
-  top: 30px;
-  right:750px;
-}
-
-.p-meme{
-  top: 30px;
-  right:750px;
-  width: 30%;
-}
-
-.p-shortleg{
-  top: 30px;
-  right:450px;
-}
-
-.p-gene{
-  top:40px;
-  right: 600px;
-}
-.p-zebras{
-  top:40px;
-  right: 550px;
-}
-.p-lion{
-  top:20px;
-  right: 10px;
-  width: 100%;
-}
-
-.p-slowly{
-  top:20px;
-  right: 10px;
-  width: 80%;
-}
-
-.p-soccer{
-  top:20px;
-  right: 10px;
-  width: 80%;
-}
-
-.p-code{
-  top: 50px;
-  right:10px;
-  width: 50%
-}
-
-.p-zebra{
-  top: 10px;
-  right:10px;
-  width: 50%;
-}
-
-.p-genes{
-  top: 10px;
-  right:10px;
-}
-.p-language{
-  top: 10px;
-  right:10px;
-  width: 70%;
-}
-.p-fashion{
-  top: 10px;
-  left:250px;
-  width: 30%;
-}
-.p-religion{
-  top: 10px;
-  right:10px;
-  width: 30%;
-}
-
-.p-sport{
-  top: 10px;
-  left:10px;
-  width: 50;
-}
-.p-knowyourmeme{
-  top: 10px;
-  left:10px;
-  width: 50%;
-}
-.p-memes{
-  top: 100px;
-  left:250px;
-  width: 30%;
-}
-.p-internet{
-  top: 100px;
-  left:250px;
-}
-.p-cat{
-  top: 10px;
-  left:50px;
-  width: 50%;
-}
-.p-cats{
-  top: 10px;
-  left:50px;
-  width: 50%;
-}
 .rollover{
   color: red;
   font-weight: bold;
@@ -311,6 +214,10 @@ h1{
 
 .rollover:hover{
   color:rgba(191,0,254,1);
+}
+
+.essay-fitback .rollover {
+  color:blue;
 }
 
 .blur {
