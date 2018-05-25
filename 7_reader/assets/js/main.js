@@ -174,5 +174,12 @@ $('.r-richard').mouseleave(function() {
                      $('.r-cat').mouseleave(function() {
                         $('.p-cat').removeClass('p-show');
                       });
+                      $('.r-cats').mouseenter(function() {
+                         $('.p-cats').addClass('p-show');
+                       });
+
+                      $('.r-cats').mouseleave(function() {
+                         $('.p-cats').removeClass('p-show');
+                       });
 // please dont delete this line
  });

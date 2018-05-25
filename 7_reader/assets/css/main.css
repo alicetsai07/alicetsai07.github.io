@@ -251,7 +251,7 @@ h1{
 .p-zebra{
   top: 10px;
   right:10px;
-  width: 50%
+  width: 50%;
 }
 
 .p-genes{
@@ -277,10 +277,12 @@ h1{
 .p-sport{
   top: 10px;
   left:10px;
+  width: 50;
 }
 .p-knowyourmeme{
   top: 10px;
   left:10px;
+  width: 50%;
 }
 .p-memes{
   top: 100px;
@@ -292,9 +294,14 @@ h1{
   left:250px;
 }
 .p-cat{
-  top: 100px;
-  left:250px;
-  width: 90%;
+  top: 10px;
+  left:50px;
+  width: 50%;
+}
+.p-cats{
+  top: 10px;
+  left:50px;
+  width: 50%;
 }
 .rollover{
   color: red;
