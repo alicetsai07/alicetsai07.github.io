@@ -33,22 +33,46 @@ body{
 .documents-container {
   position: fixed;
   height: 100vh;
-  width:150px;
-  border-left:5px solid red;
+  width:160px;
+  border-left:5px solid purple;
   right: 0px;
   top:0px;
   overflow: scroll;
-
+  background-color:#0018927e;
 }
 
 .documents-container  img {
   width: 100%;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .documents-container p {
   font-size: 12px;
+  padding-top: 0.5rem;
+  font-weight: bold;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  color: yellow;
 }
 
+.youtube {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.youtube iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
 
 
 .nav {
@@ -117,7 +141,7 @@ body{
 
 p{
   font-family: sans-serif;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .issue-intro{
@@ -129,13 +153,14 @@ p{
   margin-bottom: 100px;
   position: fixed;
   margin: 5px auto;
-  border-right: 5px solid #18927e;
+  border-right: 5px solid darkgreen;
   z-index: 2;
   top: -4px;
 }
 
-.issue-intro h4{
+.issue-intro h4 a{
   color: #18927e;
+  text-decoration: none;
   height: 59px;
   padding-top: 1.5rem;
   position: absolute;
@@ -159,11 +184,12 @@ p{
   transform-origin: left bottom;
   transform: rotate(90deg);
   text-align: center;
-  z-index: 2;
+  z-index:2;
 }
 
-.issue-intro h6{
+.issue-intro h6 a{
   color: #18927e;
+  text-decoration: none;
   height: 59px;
   padding-top: 1.5rem;
   position: absolute;
@@ -173,12 +199,8 @@ p{
   transform: rotate(90deg);
   padding-right: .75em;
   text-align: right;
+  z-index: 2;
 }
-
-
-
-
-
 
 
 
@@ -186,26 +208,29 @@ h1{
   text-align:left;
   border: 2px white;
   list-style-position: outside;
-  font-size: 12vw;
+  font-size: 13vw;
   font-weight: 800;
   text-transform: uppercase;
   padding-bottom: 10px;
   color:rgba(191,0,254,1);
   font-style: bold;
-  padding-left: 1.5rem;
+  padding-left: 2.3rem;
 }
 
 .essay-meme h1 {
-
+padding-left: 2.3rem;
 }
 
 .essay-fitback h1 {
-
+  color: darkblue;
+  padding-left: 2.3rem;
 }
 
 .essay-design h1 {
-
+padding-left: 2.3rem;
+color: purple;
 }
+
 
 .rollover{
   color: red;
@@ -219,6 +244,10 @@ h1{
 
 .essay-fitback .rollover {
   color:blue;
+}
+
+.essay-design .rollover {
+  color:orange;
 }
 
 .blur {
