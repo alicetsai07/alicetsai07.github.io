@@ -277,22 +277,24 @@ h1{
 .p-sport{
   top: 10px;
   left:10px;
-  width: 50%
 }
 .p-knowyourmeme{
   top: 10px;
   left:10px;
-  width: 50%
 }
 .p-memes{
   top: 100px;
   left:250px;
-  width: 30%
+  width: 30%;
 }
 .p-internet{
   top: 100px;
   left:250px;
-  width: 30%
+}
+.p-cat{
+  top: 100px;
+  left:250px;
+  width: 90%;
 }
 .rollover{
   color: red;

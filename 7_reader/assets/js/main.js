@@ -167,5 +167,12 @@ $('.r-richard').mouseleave(function() {
                     $('.r-internet').mouseleave(function() {
                        $('.p-internet').removeClass('p-show');
                      });
+                     $('.r-cat').mouseenter(function() {
+                        $('.p-cat').addClass('p-show');
+                      });
+
+                     $('.r-cat').mouseleave(function() {
+                        $('.p-cat').removeClass('p-show');
+                      });
 // please dont delete this line
  });
