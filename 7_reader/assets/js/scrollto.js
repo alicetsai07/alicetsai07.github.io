@@ -23,7 +23,7 @@ $('a[href*="#"]')
         event.preventDefault();
         $('html, body').animate({
           // change how much you offset from the top
-          scrollTop: target.offset().top -200
+          scrollTop: target.offset().top
           // change the 1000 speed
         }, 1000, function() {
           // Callback after animation

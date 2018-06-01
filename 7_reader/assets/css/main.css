@@ -164,13 +164,14 @@ p{
   height: 59px;
   padding-top: 1.5rem;
   position: absolute;
-  bottom: 100%;
-  width: 100vh;
+  top:0;
+  width: 222px;
   transform-origin: left bottom;
   transform: rotate(90deg);
   text-align: left;
   padding-left: .75em;
   z-index: 2;
+  margin-top: -60px;
 }
 
 .issue-intro h5 a{
@@ -179,8 +180,9 @@ p{
   height: 59px;
   padding-top: 1.5rem;
   position: absolute;
-  bottom: 100%;
-  width: 100vh;
+  bottom: 50%;
+  margin-bottom: 50px;
+  width: 100px;
   transform-origin: left bottom;
   transform: rotate(90deg);
   text-align: center;
@@ -193,8 +195,8 @@ p{
   height: 59px;
   padding-top: 1.5rem;
   position: absolute;
-  bottom: 100%;
-  width: 100vh;
+  bottom: 300px;
+  width: 300px;
   transform-origin: left bottom;
   transform: rotate(90deg);
   padding-right: .75em;
