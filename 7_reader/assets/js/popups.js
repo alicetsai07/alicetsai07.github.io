@@ -200,5 +200,207 @@ $('.r-richard').mouseleave(function() {
                          $('.r-copy').mouseleave(function() {
                             $('.p-copy').removeClass('p-show');
                           });
+                          $('.r-contemporary').mouseenter(function() {
+                             $('.p-contemporary').addClass('p-show');
+                           });
+
+                          $('.r-contemporary').mouseleave(function() {
+                             $('.p-contemporary').removeClass('p-show');
+                           });
+                           $('.r-networks').mouseenter(function() {
+                              $('.p-networks').addClass('p-show');
+                            });
+
+                           $('.r-networks').mouseleave(function() {
+                              $('.p-networks').removeClass('p-show');
+                            });
+                            $('.r-sign').mouseenter(function() {
+                               $('.p-sign').addClass('p-show');
+                             });
+
+                            $('.r-sign').mouseleave(function() {
+                               $('.p-sign').removeClass('p-show');
+                             });
+                             $('.r-culture').mouseenter(function() {
+                                $('.p-culture').addClass('p-show');
+                              });
+
+                             $('.r-culture').mouseleave(function() {
+                                $('.p-culture').removeClass('p-show');
+                              });
+                              $('.r-read').mouseenter(function() {
+                                 $('.p-read').addClass('p-show');
+                               });
+
+                              $('.r-read').mouseleave(function() {
+                                 $('.p-read').removeClass('p-show');
+                               });
+                               $('.r-Eco').mouseenter(function() {
+                                  $('.p-Eco').addClass('p-show');
+                                });
+
+                               $('.r-Eco').mouseleave(function() {
+                                  $('.p-Eco').removeClass('p-show');
+                                });
+                                $('.r-reader').mouseenter(function() {
+                                   $('.p-reader').addClass('p-show');
+                                 });
+
+                                $('.r-reader').mouseleave(function() {
+                                   $('.p-reader').removeClass('p-show');
+                                 });
+                                 $('.r-author').mouseenter(function() {
+                                    $('.p-author').addClass('p-show');
+                                  });
+
+                                 $('.r-author').mouseleave(function() {
+                                    $('.p-author').removeClass('p-show');
+                                  });
+                                  $('.r-pa').mouseenter(function() {
+                                     $('.p-pa').addClass('p-show');
+                                   });
+
+                                  $('.r-pa').mouseleave(function() {
+                                     $('.p-pa').removeClass('p-show');
+                                   });
+                                   $('.r-master').mouseenter(function() {
+                                      $('.p-master').addClass('p-show');
+                                    });
+
+                                   $('.r-master').mouseleave(function() {
+                                      $('.p-master').removeClass('p-show');
+                                    });
+                                    $('.r-Brad').mouseenter(function() {
+                                       $('.p-Brad').addClass('p-show');
+                                     });
+
+                                    $('.r-Brad').mouseleave(function() {
+                                       $('.p-Brad').removeClass('p-show');
+                                     });
+                                     $('.r-online').mouseenter(function() {
+                                        $('.p-online').addClass('p-show');
+                                      });
+
+                                     $('.r-online').mouseleave(function() {
+                                        $('.p-online').removeClass('p-show');
+                                      });
+
+                                      $('.r-aesthlete').mouseenter(function() {
+                                         $('.p-aesthlete').addClass('p-show');
+                                       });
+
+                                      $('.r-aesthlete').mouseleave(function() {
+                                         $('.p-aesthlete').removeClass('p-show');
+                                       });
+                                       $('.r-visual').mouseenter(function() {
+                                          $('.p-visual').addClass('p-show');
+                                        });
+
+                                       $('.r-visual').mouseleave(function() {
+                                          $('.p-visual').removeClass('p-show');
+                                        });
+                                        $('.r-experience').mouseenter(function() {
+                                           $('.p-experience').addClass('p-show');
+                                         });
+
+                                        $('.r-experience').mouseleave(function() {
+                                           $('.p-experience').removeClass('p-show');
+                                         });
+
+                                         $('.r-codes').mouseenter(function() {
+                                            $('.p-codes').addClass('p-show');
+                                          });
+
+                                         $('.r-codes').mouseleave(function() {
+                                            $('.p-codes').removeClass('p-show');
+                                          });
+
+                                          $('.r-blog').mouseenter(function() {
+                                             $('.p-blog').addClass('p-show');
+                                           });
+
+                                          $('.r-blog').mouseleave(function() {
+                                             $('.p-blog').removeClass('p-show');
+                                           });
+                                           $('.r-web').mouseenter(function() {
+                                              $('.p-web').addClass('p-show');
+                                            });
+
+                                           $('.r-web').mouseleave(function() {
+                                              $('.p-web').removeClass('p-show');
+                                            });
+
+                                            $('.r-user').mouseenter(function() {
+                                               $('.p-user').addClass('p-show');
+                                             });
+
+                                            $('.r-user').mouseleave(function() {
+                                               $('.p-user').removeClass('p-show');
+                                             });
+
+                                             $('.r-back').mouseenter(function() {
+                                                $('.p-back').addClass('p-show');
+                                              });
+
+                                             $('.r-back').mouseleave(function() {
+                                                $('.p-back').removeClass('p-show');
+                                              });
+
+                                              $('.r-boris').mouseenter(function() {
+                                                 $('.p-boris').addClass('p-show');
+                                               });
+
+                                              $('.r-boris').mouseleave(function() {
+                                                 $('.p-boris').removeClass('p-show');
+                                               });
+                                               $('.r-self').mouseenter(function() {
+                                                  $('.p-self').addClass('p-show');
+                                                });
+
+                                               $('.r-self').mouseleave(function() {
+                                                  $('.p-self').removeClass('p-show');
+                                                });
+
+                                                $('.r-value').mouseenter(function() {
+                                                   $('.p-value').addClass('p-show');
+                                                 });
+
+                                                $('.r-value').mouseleave(function() {
+                                                   $('.p-value').removeClass('p-show');
+                                                 });
+
+                                                 $('.r-attitude').mouseenter(function() {
+                                                    $('.p-attitude').addClass('p-show');
+                                                  });
+
+                                                 $('.r-attitude').mouseleave(function() {
+                                                    $('.p-attitude').removeClass('p-show');
+                                                  });
+
+                                                  $('.r-program').mouseenter(function() {
+                                                     $('.p-program').addClass('p-show');
+                                                   });
+
+                                                  $('.r-program').mouseleave(function() {
+                                                     $('.p-program').removeClass('p-show');
+                                                   });
+
+                                                   $('.r-ideology').mouseenter(function() {
+                                                      $('.p-ideology').addClass('p-show');
+                                                    });
+
+                                                   $('.r-ideology').mouseleave(function() {
+                                                      $('.p-ideology').removeClass('p-show');
+                                                    });
+
+                                                    $('.r-brand').mouseenter(function() {
+                                                       $('.p-brand').addClass('p-show');
+                                                     });
+
+                                                    $('.r-brand').mouseleave(function() {
+                                                       $('.p-brand').removeClass('p-show');
+                                                     });
+  // please dont delete this line
+ // please dont delete this line
 // please dont delete this line
  });

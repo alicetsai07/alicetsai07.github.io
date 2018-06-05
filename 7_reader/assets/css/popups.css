@@ -35,9 +35,9 @@
 }
 
 .p-meme{
-  top: 30px;
-  right:750px;
-  width: 30%;
+  top: 70px;
+  right: 590px;
+  width: 40%;
 }
 
 .p-shortleg{
@@ -66,9 +66,9 @@
 }
 
 .p-soccer{
-  top:20px;
-  right: 10px;
-  width: 80%;
+  top: 70px;
+  left: 590px;
+  width: 40%;
 }
 
 .p-code{
@@ -84,13 +84,14 @@
 }
 
 .p-genes{
-  top: 10px;
-  right:10px;
+  top: 70px;
+  left: 590px;
+  width: 40%;
 }
 .p-language{
-  top: 10px;
-  right:10px;
-  width: 70%;
+  top: 70px;
+  right: 580px;
+  width: 50%;
 }
 .p-fashion{
   top: 10px;
@@ -104,14 +105,14 @@
 }
 
 .p-sport{
-  top: 10px;
-  left:10px;
-  width: 50;
+  top: 70px;
+  right: 680px;
+  width: 30%;
 }
 .p-knowyourmeme{
-  top: 10px;
-  left:10px;
-  width: 50%;
+  top: 70px;
+  right: 680px;
+  width: 30%;
 }
 .p-memes{
   top: 100px;
@@ -119,8 +120,9 @@
   width: 30%;
 }
 .p-internet{
-  top: 100px;
-  left:250px;
+  top: 70px;
+  right: 680px;
+  width: 30%;
 }
 .p-cat{
   top: 10px;
@@ -146,4 +148,144 @@
   top: 50px;
   left:500px;
   width: 20%;
+}
+.p-contemporary{
+  top: 300px;
+  left:580px;
+  width: 50%;
+}
+.p-networks{
+  top: 300px;
+  left:580px;
+  width: 40%;
+}
+.p-sign{
+  top: 300px;
+  left:580px;
+  width: 40%;
+}
+.p-culture{
+  top: 300px;
+  left:580px;
+  width: 40%;
+}
+.p-read{
+  top: 300px;
+  left:580px;
+  width: 40%;
+}
+.p-Eco{
+  top: 300px;
+  left:580px;
+  width: 40%;
+}
+.p-reader{
+  top: 70px;
+  right: 720px;
+  width: 40%;
+}
+.p-author{
+  top: 70px;
+  right: 720px;
+  width: 40%;
+}
+.p-pa{
+  top: 70px;
+  right: 720px;
+  width: 40%;
+}
+.p-master{
+  top: 70px;
+  right: 720px;
+  width: 40%;
+}
+.p-Brad{
+  top: 70px;
+  right: 720px;
+  width: 40%;
+}
+.p-online{
+  top: 70px;
+  right: 720px;
+  width: 40%;
+}
+.p-aesthlete{
+  top: 150px;
+  right: 720px;
+  width: 40%;
+}
+.p-visual{
+  top: 300px;
+  left:580px;
+  width: 40%;
+}
+.p-experience{
+  top: 300px;
+  left:580px;
+  width: 40%;
+}
+.p-codes{
+  top: 300px;
+  left:580px;
+  width: 40%;
+}
+.p-blog{
+  top: 300px;
+  left:550px;
+  width: 60%;
+}
+.p-web{
+  top: 300px;
+  right: 720px;
+  width: 40%;
+}
+.p-user{
+  top: 300px;
+  right: 720px;
+  width: 40%;
+}
+.p-back{
+  top: 10px;
+  right: 720px;
+  width: 40%;
+}
+.p-boris{
+  top: 40px;
+  right: 720px;
+  width: 40%;
+}
+.p-self{
+  top: 40px;
+  right: 720px;
+  width: 40%;
+}
+
+.p-value{
+  top: 40px;
+  right: 450px;
+  width: 70%;
+}
+
+.p-attitude{
+  top: 40px;
+  right: 680px;
+  width: 50%;
+}
+
+.p-program{
+  top: 40px;
+  right: 620px;
+  width: 50%;
+}
+
+.p-ideology{
+  top: 40px;
+  right: 600px;
+  width: 50%;
+}
+
+.p-brand{
+  top: 40px;
+  right: 590px;
+  width: 50%;
 }
